@@ -1624,8 +1624,8 @@
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
+	/*	background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+*/		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
 	}
@@ -1645,7 +1645,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Montserrat", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1769,11 +1769,10 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
-		font-weight: 700;
-		letter-spacing: 0.1em;
+		font-family: Montserrat, Raleway, Helvetica, sans-serif;
+		font-weight: 400;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+/*		text-transform: uppercase;*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1791,23 +1790,27 @@
 		}
 
 	h2 {
-		font-size: 1.2em;
+		font-size: 1.4em;
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1.2em;
 	}
 
 	h4 {
-		font-size: 0.7em;
+		font-size: 1.0em;
 	}
 
 	h5 {
-		font-size: 0.7em;
+		font-size: 0.9em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.9em;
+	}
+
+	p {
+		font-size: 0.9em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1918,7 +1921,7 @@
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: Montserrat, Raleway, Helvetica, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2744,7 +2747,7 @@
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			border-bottom: 0;
-			font-size: 0.8em;
+			font-size: 1.6em;
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
@@ -2755,11 +2758,10 @@
 			}
 
 		#header nav {
-			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 0.8em;
-			font-weight: 700;
-			height: 3em;
-			letter-spacing: 0.1em;
+			font-family: "Montserrat", Raleway, Helvetica, sans-serif;
+			font-size: 0.75em;
+			font-weight: 400;
+			height: 2em;
 			line-height: 3em;
 			position: absolute;
 			right: 0.7em;
@@ -2976,10 +2978,9 @@
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+					font-family: Montserrat, Raleway, Helvetica, sans-serif;
 					font-size: 0.8em;
 					font-weight: 200;
-					letter-spacing: 0.1em;
 					line-height: 1.85em;
 					padding: 0.75em 0;
 					text-transform: uppercase;
@@ -3030,7 +3031,10 @@
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 10em 0 4.75em 0;
+		padding-top: 300px;
+		margin-bottom: 200px;
+		margin-bottom: 200px;
 	}
 
 		#banner .inner {
@@ -3105,12 +3109,12 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Montserrat, Raleway, Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
-			letter-spacing: 0.1em;
+/*			letter-spacing: 0.1em;*/
 			line-height: 2;
-			text-transform: uppercase;
+/*			text-transform: uppercase;*/
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3215,7 +3219,7 @@
 		}
 
 		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: Montserrat, Raleway, Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3275,9 +3279,9 @@
 		position: relative;
 	}
 
-		.wrapper:before, .wrapper:after {
+	/*	.wrapper:before, .wrapper:after {
 			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");
-		}
+		}*/
 
 		.wrapper:before, .wrapper:after {
 			background-repeat: no-repeat;
@@ -3324,7 +3328,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #353849;
+			background-color: #454858;
 		}
 
 			.wrapper.style2:before, .wrapper.style2:after {
@@ -3332,7 +3336,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: #454858;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
