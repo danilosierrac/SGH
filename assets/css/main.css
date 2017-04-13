@@ -3129,7 +3129,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 12em 3em 12.375em 3em ;
+				padding: 6em 3em 6em 3em ;
 				margin-bottom: -4.75em;
 			}
 
@@ -3142,7 +3142,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 4em 2em 4em 2em ;
 				margin-bottom: -2.5em;
 			}
 
